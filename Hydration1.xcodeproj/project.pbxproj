@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CD9EC5562CCEFF3500A819FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9EC53D2CCEFF3400A819FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9EC5442CCEFF3400A819FD;
+			remoteInfo = Hydration1;
+		};
+		CD9EC5602CCEFF3500A819FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9EC53D2CCEFF3400A819FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9EC5442CCEFF3400A819FD;
+			remoteInfo = Hydration1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9EC5452CCEFF3400A819FD /* Hydration1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydration1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9EC5552CCEFF3500A819FD /* Hydration1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hydration1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9EC55F2CCEFF3500A819FD /* Hydration1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hydration1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD9EC5472CCEFF3400A819FD /* Hydration1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hydration1;
+			sourceTree = "<group>";
+		};
+		CD9EC5582CCEFF3500A819FD /* Hydration1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hydration1Tests;
+			sourceTree = "<group>";
+		};
+		CD9EC5622CCEFF3500A819FD /* Hydration1UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hydration1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9EC5422CCEFF3400A819FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EC5522CCEFF3500A819FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EC55C2CCEFF3500A819FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9EC53C2CCEFF3400A819FD = {
+			isa = PBXGroup;
+			children = (
+				CD9EC5472CCEFF3400A819FD /* Hydration1 */,
+				CD9EC5582CCEFF3500A819FD /* Hydration1Tests */,
+				CD9EC5622CCEFF3500A819FD /* Hydration1UITests */,
+				CD9EC5462CCEFF3400A819FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9EC5462CCEFF3400A819FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EC5452CCEFF3400A819FD /* Hydration1.app */,
+				CD9EC5552CCEFF3500A819FD /* Hydration1Tests.xctest */,
+				CD9EC55F2CCEFF3500A819FD /* Hydration1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9EC5442CCEFF3400A819FD /* Hydration1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EC5692CCEFF3500A819FD /* Build configuration list for PBXNativeTarget "Hydration1" */;
+			buildPhases = (
+				CD9EC5412CCEFF3400A819FD /* Sources */,
+				CD9EC5422CCEFF3400A819FD /* Frameworks */,
+				CD9EC5432CCEFF3400A819FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD9EC5472CCEFF3400A819FD /* Hydration1 */,
+			);
+			name = Hydration1;
+			packageProductDependencies = (
+			);
+			productName = Hydration1;
+			productReference = CD9EC5452CCEFF3400A819FD /* Hydration1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9EC5542CCEFF3500A819FD /* Hydration1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EC56C2CCEFF3500A819FD /* Build configuration list for PBXNativeTarget "Hydration1Tests" */;
+			buildPhases = (
+				CD9EC5512CCEFF3500A819FD /* Sources */,
+				CD9EC5522CCEFF3500A819FD /* Frameworks */,
+				CD9EC5532CCEFF3500A819FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9EC5572CCEFF3500A819FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD9EC5582CCEFF3500A819FD /* Hydration1Tests */,
+			);
+			name = Hydration1Tests;
+			packageProductDependencies = (
+			);
+			productName = Hydration1Tests;
+			productReference = CD9EC5552CCEFF3500A819FD /* Hydration1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9EC55E2CCEFF3500A819FD /* Hydration1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EC56F2CCEFF3500A819FD /* Build configuration list for PBXNativeTarget "Hydration1UITests" */;
+			buildPhases = (
+				CD9EC55B2CCEFF3500A819FD /* Sources */,
+				CD9EC55C2CCEFF3500A819FD /* Frameworks */,
+				CD9EC55D2CCEFF3500A819FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9EC5612CCEFF3500A819FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD9EC5622CCEFF3500A819FD /* Hydration1UITests */,
+			);
+			name = Hydration1UITests;
+			packageProductDependencies = (
+			);
+			productName = Hydration1UITests;
+			productReference = CD9EC55F2CCEFF3500A819FD /* Hydration1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9EC53D2CCEFF3400A819FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CD9EC5442CCEFF3400A819FD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CD9EC5542CCEFF3500A819FD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CD9EC5442CCEFF3400A819FD;
+					};
+					CD9EC55E2CCEFF3500A819FD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CD9EC5442CCEFF3400A819FD;
+					};
+				};
+			};
+			buildConfigurationList = CD9EC5402CCEFF3400A819FD /* Build configuration list for PBXProject "Hydration1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9EC53C2CCEFF3400A819FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD9EC5462CCEFF3400A819FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9EC5442CCEFF3400A819FD /* Hydration1 */,
+				CD9EC5542CCEFF3500A819FD /* Hydration1Tests */,
+				CD9EC55E2CCEFF3500A819FD /* Hydration1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9EC5432CCEFF3400A819FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EC5532CCEFF3500A819FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EC55D2CCEFF3500A819FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9EC5412CCEFF3400A819FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EC5512CCEFF3500A819FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EC55B2CCEFF3500A819FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9EC5572CCEFF3500A819FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9EC5442CCEFF3400A819FD /* Hydration1 */;
+			targetProxy = CD9EC5562CCEFF3500A819FD /* PBXContainerItemProxy */;
+		};
+		CD9EC5612CCEFF3500A819FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9EC5442CCEFF3400A819FD /* Hydration1 */;
+			targetProxy = CD9EC5602CCEFF3500A819FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD9EC5672CCEFF3500A819FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9EC5682CCEFF3500A819FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9EC56A2CCEFF3500A819FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydration1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g.Hydration1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9EC56B2CCEFF3500A819FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydration1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g.Hydration1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD9EC56D2CCEFF3500A819FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g.Hydration1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydration1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydration1";
+			};
+			name = Debug;
+		};
+		CD9EC56E2CCEFF3500A819FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g.Hydration1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydration1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hydration1";
+			};
+			name = Release;
+		};
+		CD9EC5702CCEFF3500A819FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g.Hydration1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hydration1;
+			};
+			name = Debug;
+		};
+		CD9EC5712CCEFF3500A819FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g.Hydration1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hydration1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9EC5402CCEFF3400A819FD /* Build configuration list for PBXProject "Hydration1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EC5672CCEFF3500A819FD /* Debug */,
+				CD9EC5682CCEFF3500A819FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9EC5692CCEFF3500A819FD /* Build configuration list for PBXNativeTarget "Hydration1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EC56A2CCEFF3500A819FD /* Debug */,
+				CD9EC56B2CCEFF3500A819FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9EC56C2CCEFF3500A819FD /* Build configuration list for PBXNativeTarget "Hydration1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EC56D2CCEFF3500A819FD /* Debug */,
+				CD9EC56E2CCEFF3500A819FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9EC56F2CCEFF3500A819FD /* Build configuration list for PBXNativeTarget "Hydration1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EC5702CCEFF3500A819FD /* Debug */,
+				CD9EC5712CCEFF3500A819FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9EC53D2CCEFF3400A819FD /* Project object */;
+}
