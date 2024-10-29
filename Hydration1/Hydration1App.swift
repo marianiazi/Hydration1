@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct Hydration1App: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+          WindowGroup {
+              MainView()  // Launches MainView to handle onboarding and main content navigation
+          }
+      }
+  }
